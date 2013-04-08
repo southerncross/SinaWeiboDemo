@@ -10,6 +10,9 @@ PS：本demo在分类上属于*站内应用*，目前我也不知道“站内应
 # 环境配置
 
 1.运行环境是linux或unix（windows平台不是不幸，只是因为要运行apache服务，linux和unix更容易使用）
-2.需要开启apache服务
+
+2.开启apache服务
+
 3.需要一个浏览器
-4.需要关闭
+
+4.关闭selinux
