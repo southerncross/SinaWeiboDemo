@@ -9,10 +9,40 @@ PS：本demo在分类上属于*站内应用*，目前我也不知道“站内应
 
 # 环境配置
 
-1.运行环境是linux或unix（windows平台不是不行，只是因为要运行apache服务，linux和unix更容易使用）
+## 运行环境是linux或unix（windows平台不是不行，只是因为要运行apache服务，linux和unix更容易使用）
 
-2.开启apache服务
+## 安装并启动apache服务
 
-3.需要一个浏览器
+debian系列：
 
-4.关闭selinux
+    sudo apt-get -fy install apache2
+    sudo /etc/init.d/apache2 restart
+    
+redhat系列：
+
+    sudo yum install httpd -y
+    sudo /etc/init.d/httpd restart
+    
+## 关闭selinux
+
+debian系列：不需要
+
+redhat系列：
+
+    sudo setenforce 0
+
+## 安装github客户端
+
+PS：这步只是为了使用github客户端方便签出代码，所以不是必须的，因为可以直接从网站上下载本demo的代码
+
+debian系列：
+   
+    sudo apt-get -fy install git
+    
+redhat系列：
+
+    sudo yum install git
+    
+## 需要一个浏览器
+
+
