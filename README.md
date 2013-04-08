@@ -9,7 +9,7 @@ PS：本demo在分类上属于*站内应用*，目前我也不知道“站内应
 
 # 环境配置
 
-1.运行环境是linux或unix（windows平台不是不幸，只是因为要运行apache服务，linux和unix更容易使用）
+1.运行环境是linux或unix（windows平台不是不行，只是因为要运行apache服务，linux和unix更容易使用）
 
 2.开启apache服务
 
