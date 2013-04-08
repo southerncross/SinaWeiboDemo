@@ -43,6 +43,14 @@ redhat系列：
 
     sudo yum install git
     
-## 需要一个浏览器
+##  签出代码
+
+PS：如果安装了github客户端就可以直接执行下面的命令clone代码到本地了
+
+    git clone https://github.com/southerncross/SinaWeiboDemo.git
+    
+如果没有github客户端就直接通过网页下载本demo的代码吧
+    
+（未完成。。。）
 
 
