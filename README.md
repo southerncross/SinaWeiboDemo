@@ -45,14 +45,6 @@ redhat系列：
 
     sudo yum install git
     
-##  签出代码
-
-PS：如果安装了github客户端就可以直接执行下面的命令clone代码到本地了
-
-    git clone https://github.com/southerncross/SinaWeiboDemo.git
-    
-如果没有github客户端就直接通过网页下载本demo的代码吧
-    
 ## 创建相关路径
 
 debian系列：
@@ -62,5 +54,29 @@ apache的默认路径是/var/www/，在这个路径下建立一个可写目录�
     sudo mkdir /var/www/static
     
     chmod a+wx -R /var/www/static
+    
+##  签出代码
+
+PS：如果安装了github客户端就可以直接执行下面的命令clone代码到本地了
+
+    git clone https://github.com/southerncross/SinaWeiboDemo.git
+    
+如果没有github客户端就直接通过网页下载本demo的代码吧
+
+将代码（所有文件）复制到apache的默认页面路径，debian系统是/var/www/，redhat系统是/var/www/html/
+
+# 使用方法
+
+## 身份验证
+
+- 在浏览器中输入localhost/index.php，进入授权页面，点击确认授权，显示授权成功
+
+- 在浏览器中输入localhost/usertimeline.php，输入用户昵称，点击确定，得到该微博用户的最近发布微博列表
+
+- 选择一条原创微博，记住id
+
+- 修改repoststimeline.php文件，将上一步的id填写在$ids数组中
+
+- 在浏览器中输入localhost/repoststimeline.php，在/var/www/static或/var/www/html/static路径下会创建result.txt文件，该文件就是这条微博的所有转发列表
 
 
