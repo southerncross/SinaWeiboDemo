@@ -59,11 +59,11 @@ apache的默认路径是/var/www/，在这个路径下建立一个可写目录�
 
 deian系列：
     
-    sudo apt-get install php5
+    sudo apt-get install php5 curl libcurl3 libcurl3-dev php5-curl
     
 redhat系列：
 
-    sudo yum install php5
+    sudo yum install php5 curl libcurl3 libcurl3-dev php5-curl
     
 ##  签出代码
 
