@@ -55,6 +55,16 @@ apache的默认路径是/var/www/，在这个路径下建立一个可写目录�
     
     chmod a+wx -R /var/www/static
     
+## 安装php环境
+
+deian系列：
+    
+    sudo apt-get install php5
+    
+redhat系列：
+
+    sudo yum install php5
+    
 ##  签出代码
 
 PS：如果安装了github客户端就可以直接执行下面的命令clone代码到本地了
