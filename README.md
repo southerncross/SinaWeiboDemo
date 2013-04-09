@@ -81,11 +81,11 @@ PS：如果安装了github客户端就可以直接执行下面的命令clone代�
 
 ## 身份验证
 
-在浏览器中输入localhost/index.php，进入授权页面，点击确认授权，显示授权成功
+在浏览器中新开一个标签页，输入localhost/index.php，进入授权页面，点击确认授权，显示授权成功，点击“进入自己的微博页面”
 
 ## 提取微博id
 
-在浏览器中输入localhost/usertimeline.php，输入用户昵称，点击确定，得到该微博用户的最近发布微博列表
+在浏览器中新开一个标签页，输入localhost/usertimeline.php，输入用户昵称，点击确定，得到该微博用户的最近发布微博列表
 
 选择一条原创微博，记住id
 
@@ -97,4 +97,6 @@ PS：如果安装了github客户端就可以直接执行下面的命令clone代�
 
 在浏览器中输入localhost/repoststimeline.php，在/var/www/static或/var/www/html/static路径下会创建result.txt文件，该文件就是这条微博的所有转发列表
 
+
+PS：好吧这个demo是够简陋了一些，如果有空的话我好好整理一下代码，去掉没用的，把配置项都写进配置文件里，同时写一个自动部署脚本，现在这些都没有，将就着用吧。。。
 
