@@ -42,7 +42,7 @@ $msg = $c->rate_limit_status();
     <?php print_r($msg['api_rate_limits']); ?>
     <br />
     <?php 
-    /*
+    
     foreach ($ids as $id) {
         $fname = $fdir.$id;
         $page_number = 1;
@@ -68,7 +68,7 @@ $msg = $c->rate_limit_status();
         
         echo $id."is ok"."<br />";
     }
-    */
+    
     ?>
 </body>
 </html>
