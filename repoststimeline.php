@@ -63,7 +63,7 @@ $msg = $c->rate_limit_status();
                file_put_contents($fname, "\n", FILE_APPEND); 
             }
             $page_number = $page_number + 1;
-            sleep(1);
+            //sleep(1);
         } while (0 != count($ms['reposts']));
         
         echo $id."is ok"."<br />";
