@@ -65,6 +65,8 @@ redhat系列：
 
     sudo yum install php5 curl libcurl3 libcurl3-dev php5-curl
     
+PS：做完这步最好重启一下，有时候不重启就是不行。。。
+    
 ##  签出代码
 
 PS：如果安装了github客户端就可以直接执行下面的命令clone代码到本地了
